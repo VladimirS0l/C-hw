@@ -5,7 +5,7 @@
 32679 -> 6*/
 
 
-Console.WriteLine("Введите число: ");
+/*Console.WriteLine("Введите число: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 if(numberA>99)
 {
@@ -14,13 +14,24 @@ if(numberA>99)
 else
 {
     Console.WriteLine("Третьей цифры нет");
+}*/
+
+Console.WriteLine("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+void something(int number)
+{
+    if(number>99)
+    {
+        Console.WriteLine(number.ToString()[2]);
+    }
+    else
+    {
+        Console.WriteLine("Третьей цифры нет");
+    }
 }
 
-
-
-/*Console.WriteLine(numberA>99 ? numberA.ToString()[2] : '-');
-Console.ReadKey(true);*/
-
+something(number);
 
 
 
