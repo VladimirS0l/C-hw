@@ -33,29 +33,3 @@ void something(int number)
 
 something(number);
 
-
-
-
-
-
-
-
-
-/*Console.WriteLine("Введите трехзначное число: ");
-int numberA = Convert.ToInt32(Console.ReadLine());
-
-void outnumber(int numberA)
-{
-    if(numberA % 100 != 0)
-    {
-        int numberB = numberA % 100;
-        int numberC = numberB % 10;
-        Console.WriteLine(numberC);
-    }
-    else
-    {
-        Console.WriteLine("Третьей цифры нет");
-    }
-}
-
-outnumber(numberA);*/
