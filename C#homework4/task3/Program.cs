@@ -2,7 +2,7 @@
 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 6, 1, 33 -> [6, 1, 33]*/
 
-
+/*
 Console.Write("Введите ряд чисел, разделенных запятой : ");
 string? seriesOfNumbers = Console.ReadLine();
 
@@ -77,4 +77,45 @@ void PrintArray(int[] coll)
 
 string seriesNew = RemovingSpaces(seriesOfNumbers);
 int[] arrayOfNumbers =  ArrayOfNumbers(seriesNew);
-PrintArray(arrayOfNumbers);
+PrintArray(arrayOfNumbers);*/
+
+/*
+void NewArray(int[] collection)
+{
+  int length = collection.Length;
+  int index = 0;
+  while(index < length)
+  {
+    collection[index] = new Random().Next(-100, 100);
+    index++;
+  }
+}
+
+int PrintArray(int[] randArray)
+{
+  int count = randArray.Length;
+  int position = 0;
+  while(position < count)
+  {
+    Console.Write(randArray[position] +", ");
+    position++;
+  }
+  return position;
+}
+
+int[] array = new int[8];
+NewArray(array);
+PrintArray(array);
+Console.WriteLine();*/
+
+/*
+int length = 8;
+int[] newArray = new int [length];
+Random rnd = new Random();
+
+for (int i = 0; i < length; i++)
+{
+  newArray[i] = rnd.Next(-100, 100);
+  Console.Write(newArray[i] + ", ");
+}*/
+
