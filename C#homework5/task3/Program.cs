@@ -3,10 +3,10 @@
 [3 7 22 2 78] -> 76*/
 
 int length = 5;
-double[] array = new double[length];
+int[] array = new int[length];
 Random rnd = new Random();
-double minNum = 99;
-double maxNum = array[0];
+int minNum = 99; //почему то, когда стоит значение array[0], он всегда выводит minNum = 0
+int maxNum = array[0];
 Console.Write("[");
 
 for(int i = 0; i < length; i++)
@@ -25,5 +25,5 @@ for(int i = 0; i < length; i++)
 Console.Write("]");
 Console.WriteLine("\n\nmax: " + maxNum);
 Console.WriteLine("min: " + minNum);
-double res = maxNum - minNum;
+int res = maxNum - minNum;
 Console.WriteLine("Разница между максимальным значением и минимальным равна: " + res);
