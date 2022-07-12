@@ -13,11 +13,11 @@ for(int i = 0; i < length; i++)
 {
     array[i] = rnd.Next(1, 99);
     Console.Write(array[i] + " ");
-    if(array[i] < minNum)
+    if(minNum > array[i])
     {
         minNum = array[i];
     }
-    if(array[i] > maxNum)
+    if(maxNum < array[i])
     {
         maxNum = array[i];
     }   

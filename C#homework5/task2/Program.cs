@@ -50,4 +50,4 @@ PrintArray(array);
 Console.WriteLine();
 
 int pos = sumOddNum(array);
-Console.WriteLine("\nСумма нечетных элементов: " +pos);
+Console.WriteLine("\n\nСумма нечетных элементов: " +pos);
