@@ -7,9 +7,7 @@
 int r = 2;
 int c = 2;
 int d = 2;
-
 int[,,] array = new int[r, c, d];
-
 Random random = new Random();
 
 for (int i = 0; i < r; i++)
