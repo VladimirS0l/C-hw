@@ -14,13 +14,13 @@ Console.WriteLine($"Сумма элементов от M до N = {SumNumber(m, 
 
 string PrintNumbers(int start, int end)
 {
-    if(start == end) return start.ToString();
+    if (start == end) return start.ToString();
     return (start + ", " + PrintNumbers(start + 1, end));
 }
 
 int SumNumber(int m, int n)
 {
-    if(m == n) return m;
-    else return m + SumNumber(m + 1, n);  
+    if (m == n) return m;
+    else return m + SumNumber(m + 1, n);
 }
 
